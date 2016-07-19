@@ -1,0 +1,89 @@
+/* 
+    Created on : 14/07/2016, 21:32:57
+    Author     : thiago
+*/
+
+@font-face{
+    font-family: Asap;
+    src: url(../fonts/Asap-Regular.ttf);    
+}
+
+body{
+    /*background-color: #FFF;*/
+    background: url("../img/swirl_pattern.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: Asap;
+}
+
+header{
+    color: #FFF;
+    background: url("../img/header.png") repeat-y;
+    /*opacity: 0.7;*/
+    position: relative;    
+    min-height: 100%;    
+}
+
+header h1{
+    font-size: 80px;
+}
+
+header #logo{
+    margin: 6% auto 5%;
+}
+
+header p{
+    font-size: 1.4em;
+}
+
+header b{
+   color:  #F24E4E;
+}
+
+header #foto{
+    margin: 2% auto;
+    width: 210px;
+    height: 210px;    
+}
+
+.navbar{
+    background: transparent;
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    background-color:  #F24E4E;
+    color: #fff; 
+}
+
+.navbar-nav {
+    display: table;  
+    float: none;
+    margin: 0 auto;
+    table-layout: fixed;
+    /*font-size: 1.25em;*/
+    text-transform: uppercase;     
+}
+
+#icons{
+    /*margin-bottom: 1%;*/
+    padding-bottom: 2%;
+    border-bottom: 1px dashed #fff;
+}
+
+section{
+    background-color: #F24E4E;
+    opacity: 0.8;
+    height: 600px;
+}
+
+footer{
+    background-color: #043b50;
+    height: 200px;
+}
