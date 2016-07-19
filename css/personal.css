@@ -8,6 +8,7 @@
     src: url(../fonts/Asap-Regular.ttf);    
 }
 
+
 body{
     /*background-color: #FFF;*/
     background: url("../img/swirl_pattern.png");
@@ -67,12 +68,10 @@ header #foto{
     float: none;
     margin: 0 auto;
     table-layout: fixed;
-    /*font-size: 1.25em;*/
     text-transform: uppercase;     
 }
 
-#icons{
-    /*margin-bottom: 1%;*/
+#icons{    
     padding-bottom: 2%;
     border-bottom: 1px dashed #fff;
 }
