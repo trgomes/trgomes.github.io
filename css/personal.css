@@ -81,7 +81,7 @@ header #foto{
 }
 
 #imgBrand{
-    margin-top: 7px;
+    margin-top: 30%;
     height: 30px;
     width: 150px;
 }
@@ -97,7 +97,8 @@ header #foto{
 }
 
 section{
-    background-color: #F24E4E;
+    /*background-color: #F24E4E;*/
+    background-color: #000;
     opacity: 0.8;
     height: 100%;
     position: relative;
