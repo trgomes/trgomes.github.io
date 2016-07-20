@@ -61,36 +61,51 @@
                 </div>
             </div><!-- /.row -->            
 
-            <!--Menu de navegação-->
-            <div>
+            <!--Menu de navegação central-->           
             <div class="row">
-                <div class="col-md-6 col-md-offset-3">                    
-                    <nav class="navbar navbar-default" id="meuMenu">
-                        <div class="container-fluid">
-                            <!-- Brand and toggle get grouped for better mobile display -->
-                            <!--<div class="navbar-header">-->
-<!--                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>  -->
-                                <a class="navbar-brand invisible" href="#" id="brand"><img src="img/nome.gif" id="imgBrand"></a>
-                            <!--</div>-->
+                <!--<div class="container-fluid">-->                    
+                <nav class="container" id="menu">
+                    <ul class="text-center">
+                        <li><a href="#">Home</a></li> <!-- class="active"-->
+                        <li><a href="#">Projetos</a></li> <!-- class="active"-->
+                        <li><a href="#">Habilidades</a></li>                                    
+                        <li><a href="#">Contato</a></li>                                    
+                    </ul>
+                </nav> 
+                <!--</div> /.col-md-6 -->
+            </div>
+            <!--/ Menu de navegação central-->
 
-                            <!-- Nav links -->
-                            <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
-                                <ul class="nav navbar-nav" id="link">
-                                    <li><a href="#">Home</a></li> <!-- class="active"-->
-                                    <li><a href="#">Projetos</a></li> <!-- class="active"-->
-                                    <li><a href="#">Habilidades</a></li>                                    
-                                    <li><a href="#">Contato</a></li>                                    
-                                </ul>                                 
-                            <!--</div>  /.navbar-collapse -->
-                        </div><!-- /.container-fluid -->
-                    </nav><!-- /.navbar -->
-                </div><!-- /.col-md-6 -->
-            </div><!-- /.row -->
+            <!--Menu fixo-->
+            <nav class="navbar navbar-inverse navbar-fixed-top invisible" id="menuTopo">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#" id="brand"><img src="img/nome.gif" id="imgBrand"></a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Home</a></li> <!-- class="active"-->
+                            <li><a href="#">Projetos</a></li> <!-- class="active"-->
+                            <li><a href="#">Habilidades</a></li>                                    
+                            <li><a href="#">Contato</a></li>                             
+                        </ul>                       
+
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+            <!--/Menu fixo-->
+
+
+
         </header><!-- /header -->
 
         <section class="container-fluid">
@@ -106,7 +121,7 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
         <!-- Define as configurações do menu ao atingir o topo -->
-        <script src="js/nav.js"></script>
+        <script src="js/navTopo.js"></script>
     </body>
 </html>
 
