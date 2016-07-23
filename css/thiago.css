@@ -67,8 +67,9 @@ header #foto{
 
 .navbar-inverse .navbar-nav > li > a:hover{
     /*background-color: #F24E4E;*/
-    /*background: url("../img/bgMenu.png") repeat-x;*/
-    color: #F24E4E;  
+    background: url("../img/bgMenu.png") repeat-x;
+    background-position: bottom;
+    /*color: #F24E4E;*/  
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -85,7 +86,7 @@ header #foto{
 }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
 
     .navbar{
         /*background: transparent;*/
@@ -109,6 +110,8 @@ header #foto{
         -moz-transition:.5s;
         -webkit-transition:.5s;
     }
+    
+  
 }
 
 /************* Menu topo *************/
@@ -118,7 +121,8 @@ header #foto{
 /************* Menu principal *************/
 #menu > ul{
     margin: 5px auto;
-    list-style: none;    
+    list-style: none; 
+    border-top: 1px solid #FFFFFF;
 }
 
 #menu > ul > li{
@@ -126,7 +130,8 @@ header #foto{
 }
 
 #menu > ul > li > a{
-    line-height: 40px;
+    margin-top: 3px;
+    line-height: 35px;
     padding:10px;
     display: inline-block;
     text-transform: uppercase;
@@ -135,10 +140,9 @@ header #foto{
 }
 
 #menu > ul > li > a:hover{
-    background-color:  #F24E4E;
-    /*background: url("../img/bgMenu.png") repeat-x;*/
-    border-radius: 2px;
-    color: #FFFFFF; 
+    /*background-color:  #F24E4E;*/    
+    background: url("../img/bgMenu.png") repeat-x;
+    background-position: bottom;    
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -156,24 +160,42 @@ header #foto{
 
 #menu > ul > li > a:visited{    
     color: #FFFFFF; 
+    
 }
+
+@media screen and (max-width: 400px){
+
+    /*    #menu{
+            visibility: hidden;
+        }*/
+    .navbar{
+        /*opacity: 0.98;*/
+    }
+    
+    header{
+        height: 650px;
+    }
+    
+    header #logo{
+        visibility: hidden;
+    }
+
+    .invisible{
+        visibility: visible;
+    }
+    
+    #menu{
+        visibility: hidden;
+    }
+    
+    
+}
+
 /************* Menu principal *************/
-
-/*.navbar-nav > li{
-    float: left;    
-}*/
-
-.invisible{
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-}
-
 
 #icons{    
     padding-bottom: 2%;
-    border-bottom: 1px dashed #FFFFFF;
+/*    border-bottom: 1px dashed #FFFFFF;*/
 }
 
 section{
@@ -194,12 +216,5 @@ footer{
     }
 }
 
-/*
-@media screen and (max-width: 640px){
-    .navbar-nav{
-        float: none;
-        font-size: 0.89em;
-    }
-}*/
 
 

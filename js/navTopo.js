@@ -9,9 +9,11 @@ var $menuTopo = $('#menuTopo'); // guardar o elemento na memoria para melhorar p
 var $menu = $('#menu'); // guardar o elemento na memoria para melhorar performance
 $(document).on('scroll', function () {
     if (offset <= $(window).scrollTop()) {
-        $menuTopo.removeClass('invisible');       
+        $menuTopo.removeClass('invisible'); 
+        $menu.addClass('invisible');
     } else {
-        $menuTopo.addClass('invisible');        
+        $menuTopo.addClass('invisible');   
+        $menu.removeClass('invisible');
     }
 });
 
