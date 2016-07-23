@@ -173,7 +173,11 @@ header #foto{
     }
     
     header{
-        height: 650px;
+        min-height: 650px;
+    }
+    
+    #icons{
+        
     }
     
     header #logo{
@@ -215,6 +219,8 @@ footer{
         font-size: 2em;
     }
 }
+
+
 
 
 
