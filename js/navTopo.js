@@ -6,14 +6,14 @@
 
 var offset = $('#menu').offset().top;
 var $menuTopo = $('#menuTopo'); // guardar o elemento na memoria para melhorar performance
-var $menu = $('#menu'); // guardar o elemento na memoria para melhorar performance
+var $menu = $('#menu');
+
 $(document).on('scroll', function () {
     if (offset <= $(window).scrollTop()) {
-        $menuTopo.removeClass('invisible'); 
+        $menuTopo.removeClass('invisible');
         $menu.addClass('invisible');
     } else {
-        $menuTopo.addClass('invisible');   
+        $menuTopo.addClass('invisible');
         $menu.removeClass('invisible');
     }
 });
-
