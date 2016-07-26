@@ -1,25 +1,38 @@
 /* 
+    =========CSS PERSONALIZADO=======
     Created on : 14/07/2016, 21:32:57
-    Author     : thiago
+    Author     : Thiago Gomes
+    =================================
 */
+
 
 @font-face{
     font-family: Asap;
     src: url(../fonts/Asap-Regular.ttf);    
 }
 
+/*********RESET*********/
+html, body, p, ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;    
+}
+/*********RESET*********/
+
 body{
     /*background-color: #FFF;*/
-    background: url("../img/swirl_pattern.png");
+    background: url("../img/background//swirl_pattern.png");
     position: absolute;
     width: 100%;
     height: 100%;
     font-family: Asap;
+
 }
 
 header{
     color: #FFFFFF;
-    background: url("../img/header.png") repeat-y;
+    background: url("../img/background/header.png") repeat-y;
     /*opacity: 0.7;*/
     position: relative;    
     min-height: 100%;    
@@ -52,23 +65,24 @@ header #foto{
     /*background: transparent;*/
     /*opacity: 0.9;*/
     /*background: #043B50;*/
-    background: #333;
+    background-color: #333;
+    /*background-color: #04394e;*/
     min-height: 80px;
     border: none;
 }
 
 .navbar-inverse .navbar-nav > li > a{
-    margin: 5px;
-    line-height: 40px;
+    /*margin: 5px;*/
+    line-height: 50px;
     color: #FFF;
     font-size: 1em;
     text-transform: uppercase;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-    /*background-color: #F24E4E;*/
-    background: url("../img/bgMenu.png") repeat-x;
-    background-position: bottom;
+    background-color: #F24E4E;
+    /*    background: url("../img/bgMenu.png") repeat-x;
+        background-position: bottom;*/
     /*color: #F24E4E;*/  
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -92,7 +106,7 @@ header #foto{
 #menu > ul{
     margin: 5px auto;
     list-style: none; 
-    border-top: 1px solid #FFFFFF;
+    border-top: 1px solid #FFF;
 }
 
 #menu > ul > li{
@@ -110,9 +124,9 @@ header #foto{
 }
 
 #menu > ul > li > a:hover{
-    /*background-color:  #F24E4E;*/    
-    background: url("../img/bgMenu.png") repeat-x;
-    background-position: bottom;    
+    background-color:  #F24E4E;    
+    /*    background: url("../img/bgMenu.png") repeat-x;
+        background-position: bottom;    */
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -129,8 +143,8 @@ header #foto{
 }
 
 #menu > ul > li > a:visited{    
-    color: #FFFFFF; 
-    
+    color: #FFF; 
+
 }
 /************* /Menu principal *************/
 
@@ -141,27 +155,30 @@ header #foto{
     /*border-bottom: 1px dashed #FFFFFF;*/
 }
 
+#icons > a > span{
+    color: #fff;
+}
+
 section{
-    background-color: #000;
-    opacity: 0.8;
+    background-color: #FFF;
+    opacity: 0.5;
     height: 100%;
     position: relative;
 }
 
 footer{
+    color: #FFF;
+    font-size: 1.2em;
     background-color: #043B50;
-    height: 40%;
+    height: 150px;
+    line-height: 150px;
 }
 
 
 /************* Media queries *************/
 @media screen and (max-width: 768px) {
 
-    .navbar{
-        /*background: transparent;*/
-        /*opacity: 0.9;*/
-        /*background: #043B50;*/
-        background: #333;
+    .navbar{        
         min-height: 40px;
         border: none;
     }
@@ -188,10 +205,6 @@ footer{
 }
 
 @media screen and (max-width: 480px){ 
-    
-/*    header{
-        height: 680px;
-    }*/
 
     header #logo{
         visibility: hidden;
@@ -200,12 +213,9 @@ footer{
     .invisible{
         visibility: visible;
     }
-    
-    #menu{
-        /*visibility: hidden;*/
-        display: none;
-            
-    }  
-    
+
+    #menu{        
+        display: none;            
+    }     
 }
 /************* / Media queries *************/
