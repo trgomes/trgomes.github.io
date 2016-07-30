@@ -34,9 +34,10 @@ body{
 header{
     color: #FFFFFF;
     background: url("../img/background/header.png") repeat-y;
-    /*opacity: 0.7;*/
     position: relative;    
     min-height: 100%;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
     display: flex;
     align-items: center;    
 }
@@ -145,7 +146,7 @@ header #foto{
     color: #FFF;
 }
 
-#menu > ul > li > a:visited{    
+#menu > ul > li > a:visited, #menu > ul > li > a:active, #menu > ul > li > a:link{    
     color: #FFF; 
 
 }
@@ -193,19 +194,15 @@ footer{
     #imgBrand{    
         height: 30px;
         width: 160px;
-        color: #F24E4E;  
-        -o-transition:.5s;
-        -ms-transition:.5s;
-        -moz-transition:.5s;
-        -webkit-transition:.5s;
+        color: #F24E4E; 
     }    
 }
 
-/*@media screen and (min-height: 768px) {
+@media screen and (min-height: 768px) {
     header p{
-        font-size: 1.8em;        
+        font-size: 1.7em;        
     }
-}*/
+}
 
 @media screen and (max-width: 480px){ 
 
