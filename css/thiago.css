@@ -22,7 +22,7 @@ html, body, p, ul{
 
 body{
     /*background-color: #FFF;*/
-    background: url("../img/background//swirl_pattern.png");
+    background: url("../img/background/swirl_pattern.png");
     position: absolute;
     width: 100%;
     height: 100%;
@@ -200,11 +200,10 @@ header #foto{
 }
 
 #titulo h1{
-    font-size: 3em;
     font-weight: bold;
 }
 
-#titulo h2{
+#titulo h3{
     margin: 50px auto 30px;
 }
 
@@ -223,11 +222,53 @@ header #foto{
     font-weight: bold;
 }
 
-footer{
+
+#projetos{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: #FFF;
+    background: url(../img/background/projetos-green.png) repeat-y;
+    min-height: 100%;
+}
+
+
+#contato{
     color: #FFF;
     font-size: 1.2em;
     background-color: #043B50;
     /*background-color: #F24E4E;*/ 
+    height: 300px;  
+}
+
+#contato h1{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#contato .col-lg-12{
+    margin-top: 60px;
+}
+
+#contato a{
+    text-decoration: none;
+    color: #FFF;
+    line-height: 35px;
+}
+
+#contato a:hover, footer a:visited{
+    color: #F24E4E;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+}
+
+/*
+footer{
+    color: #FFF;
+    font-size: 1.2em;
+    background-color: #043B50;
+    background-color: #F24E4E; 
     height: 150px;  
 }
 
@@ -245,7 +286,7 @@ footer a{
 
 footer a:hover, footer a:visited{
     color: #FFF;
-}
+}*/
 
 /*footer a:visited{
     color: #337ab7;
