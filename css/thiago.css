@@ -29,6 +29,24 @@ body{
     font-family: Asap;
 }
 
+/*::-webkit-scrollbar {
+    width: 1px;
+    background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #037369;
+}
+
+::-moz-selection {
+    background-color: rgba(230,224,203,0.3);
+    color: #fff8e1;
+}
+
+::selection {
+    background-color: rgba(230,224,203,0.3);
+    color: #fff8e1;
+}*/
 
 
 header{
@@ -163,20 +181,76 @@ header #foto{
     color: #fff;
 }
 
-section{
-    background-color: #FFF;
-    opacity: 0.6;
-    height: 100%;
-    position: relative;
+#habilidades{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background: url(../img/background/habilidades.png) repeat-y;
+    /*opacity: 0.6;*/
+    min-height: 100%;
+    position: relative;    
+    color: #333;     
+}
+
+#tecnologias > img{
+    margin: 50px auto;
+}
+
+#titulo{
+    text-transform: uppercase;
+}
+
+#titulo h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#titulo h2{
+    margin: 50px auto 30px;
+}
+
+#descricao{
+    font-size: 1.2em;
+    line-height: 2;
+}
+
+#descricao > p > a{
+    text-decoration: none;
+    color: #F24E4E;
+    font-weight: bold;
+}
+
+#descricao > p > span{
+    font-weight: bold;
 }
 
 footer{
     color: #FFF;
     font-size: 1.2em;
     background-color: #043B50;
-    height: 150px;
-    line-height: 150px;
+    /*background-color: #F24E4E;*/ 
+    height: 150px;  
 }
+
+footer .col-lg-12{
+    margin-top: 50px;
+}
+
+footer .col-lg-12 > p{
+    margin-bottom: 5px;
+}
+
+footer a{
+    color: #FFF;
+}
+
+footer a:hover, footer a:visited{
+    color: #FFF;
+}
+
+/*footer a:visited{
+    color: #337ab7;
+}*/
+
 
 
 /************* Media queries *************/
@@ -201,6 +275,11 @@ footer{
 @media screen and (min-height: 768px) {
     header p{
         font-size: 1.7em;        
+    }
+
+    header #foto{
+        width: 240px;
+        height: 240px;    
     }
 }
 
