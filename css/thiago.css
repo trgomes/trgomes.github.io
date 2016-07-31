@@ -227,7 +227,7 @@ header #foto{
     padding-top: 80px;
     padding-bottom: 40px;
     color: #FFF;
-    background: url(../img/background/projetos-green.png) repeat-y;
+    background: url(../img/background/projetos-blue.png) repeat-y;
     min-height: 100%;
 }
 
@@ -235,9 +235,9 @@ header #foto{
 #contato{
     color: #FFF;
     font-size: 1.2em;
-    background-color: #043B50;
-    /*background-color: #F24E4E;*/ 
-    height: 300px;  
+    /*background-color: #043B50;*/
+    background-color: #333;
+    height: 320px;  
 }
 
 #contato h1{
@@ -261,6 +261,10 @@ header #foto{
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
+}
+
+#contato p{
+    font-size: 0.8em;
 }
 
 /*
