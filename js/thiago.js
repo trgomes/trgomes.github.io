@@ -22,6 +22,11 @@ $(function () {
         }
     });
 
+    //Recolhe o menu ao clicar (mobile)
+    $('.navbar-collapse a').click(function(){
+      $('.navbar-collapse').collapse('hide');
+    });
+
     // Transição suave ao clicar nos menus
     $(".smoothScroll").click(function (event) {
         event.preventDefault();
