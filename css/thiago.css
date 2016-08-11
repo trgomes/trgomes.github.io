@@ -23,8 +23,6 @@ html, body, p, ul{
 body{
     /*background-color: #FFF;*/
     background: url("../img/background/swirl_pattern.png");
-    background-position: center;
-    background-size: cover;
     position: absolute;
     width: 100%;
     height: 100%;
