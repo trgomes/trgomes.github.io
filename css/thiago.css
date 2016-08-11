@@ -1,126 +1,126 @@
 /*
-=========CSS PERSONALIZADO=======
-Created on : 14/07/2016, 21:32:57
-Author     : Thiago Gomes
-=================================
+    =========CSS PERSONALIZADO=======
+    Created on : 14/07/2016, 21:32:57
+    Author     : Thiago Gomes
+    =================================
 */
 
 
 @font-face{
-  font-family: Asap;
-  src: url(../fonts/Asap-Regular.ttf);
+    font-family: Asap;
+    src: url(../fonts/Asap-Regular.ttf);
 }
 
 /*********RESET*********/
 html, body, p, ul{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
 }
 /*********RESET*********/
 
 body{
-  /*background-color: #FFF;*/
-  background: url("../img/background/swirl_pattern.png");
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  font-family: Asap;
+    /*background-color: #FFF;*/
+    background: url("../img/background/swirl_pattern.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: Asap;
 }
 
 /*::-webkit-scrollbar {
-width: 1px;
-background: #ddd;
+    width: 1px;
+    background: #ddd;
 }
 
 ::-webkit-scrollbar-thumb {
-background: #037369;
+    background: #037369;
 }
 
 ::-moz-selection {
-background-color: rgba(230,224,203,0.3);
-color: #fff8e1;
+    background-color: rgba(230,224,203,0.3);
+    color: #fff8e1;
 }
 
 ::selection {
-background-color: rgba(230,224,203,0.3);
-color: #fff8e1;
+    background-color: rgba(230,224,203,0.3);
+    color: #fff8e1;
 }*/
 
 
 header{
-  color: #FFFFFF;
-  background: url("../img/background/header2.png");
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  min-height: 100%;
-  display: -webkit-flex; /* Safari */
-  -webkit-align-items: center; /* Safari 7.0+ */
-  display: flex;
-  align-items: center;
+    color: #FFFFFF;
+    background: url("../img/background/header2.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100%;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
 }
 
 header h1{
-  font-size: 80px;
+    font-size: 80px;
 }
 
 header #logo{
-  margin: 6% auto 5%;
+    margin: 6% auto 5%;
 }
 
 header p{
-  font-size: 1.4em;
+    font-size: 1.4em;
 }
 
 header b{
-  color:  #F24E4E;
+    color:  #F24E4E;
 }
 
 header #foto{
-  margin: 1% auto 1%;
-  width: 210px;
-  height: 210px;
+    margin: 1% auto 1%;
+    width: 210px;
+    height: 210px;
 }
 
 /************* Menu topo *************/
 .navbar{
-  /*background: transparent;*/
-  /*opacity: 0.9;*/
-  /*background: #043B50;*/
-  background-color: #333;
-  /*background-color: #04394e;*/
-  min-height: 80px;
-  border: none;
+    /*background: transparent;*/
+    /*opacity: 0.9;*/
+    /*background: #043B50;*/
+    background-color: #333;
+    /*background-color: #04394e;*/
+    min-height: 80px;
+    border: none;
 }
 
 .navbar-inverse .navbar-nav > li > a{
-  /*margin: 5px;*/
-  line-height: 50px;
-  color: #FFF;
-  font-size: 1em;
-  text-transform: uppercase;
+    /*margin: 5px;*/
+    line-height: 50px;
+    color: #FFF;
+    font-size: 1em;
+    text-transform: uppercase;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-  background-color: #F24E4E;
-  /*    background: url("../img/bgMenu.png") repeat-x;
-  background-position: bottom;*/
-  /*color: #F24E4E;*/
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
+    background-color: #F24E4E;
+    /*    background: url("../img/bgMenu.png") repeat-x;
+        background-position: bottom;*/
+    /*color: #F24E4E;*/
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
 }
 
 #brand{
-  margin-top: 4.3%;
+    margin-top: 4.3%;
 }
 
 #imgBrand{
-  height: 34px;
-  width: 200px;
+    height: 34px;
+    width: 200px;
 }
 /************* Menu topo *************/
 
@@ -128,46 +128,46 @@ header #foto{
 
 /************* Menu principal *************/
 #menu > ul{
-  /*margin: 5px auto 0;*/
-  list-style: none;
-  border-top: 1px solid #FFF;
+    /*margin: 5px auto 0;*/
+    list-style: none;
+    border-top: 1px solid #FFF;
 }
 
 #menu > ul > li{
-  display: inline;
+    display: inline;
 }
 
 #menu > ul > li > a{
-  margin-top: 3px;
-  line-height: 35px;
-  padding:10px;
-  display: inline-block;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 1.1em;
+    margin-top: 3px;
+    line-height: 35px;
+    padding:10px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.1em;
 }
 
 #menu > ul > li > a:hover{
-  background-color:  #F24E4E;
-  /*    background: url("../img/bgMenu.png") repeat-x;
-  background-position: bottom;    */
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
+    background-color:  #F24E4E;
+    /*    background: url("../img/bgMenu.png") repeat-x;
+        background-position: bottom;    */
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
 }
 
 .navbar-default{
-  background: transparent;
-  border: none;
+    background: transparent;
+    border: none;
 }
 
 .navbar-default > ul > li > a{
-  color: #FFF;
+    color: #FFF;
 }
 
 #menu > ul > li > a:visited, #menu > ul > li > a:active, #menu > ul > li > a:link{
-  color: #FFF;
+    color: #FFF;
 
 }
 /************* /Menu principal *************/
@@ -175,12 +175,12 @@ header #foto{
 
 
 #icons{
-  padding-bottom: 1%;
-  /*border-bottom: 1px dashed #FFFFFF;*/
+    padding-bottom: 1%;
+    /*border-bottom: 1px dashed #FFFFFF;*/
 }
 
 #icons > a > span{
-  color: #fff;
+    color: #fff;
 }
 
 #ico {
@@ -188,123 +188,124 @@ header #foto{
   -webkit-animation-duration: 3s;
   -webkit-animation-delay: 2s;
   -webkit-animation-iteration-count: infinite;
+
 }
 
 #habilidades{
-  padding-top: 80px;
-  padding-bottom: 40px;
-  background: url(../img/background/habilidades.png) repeat-y;
-  background-size: cover;
-  min-height: 100%;
-  position: relative;
-  color: #333;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background: url(../img/background/habilidades.png) repeat-y;
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+    color: #333;
 }
 
 #tecnologias > img{
-  margin: 50px auto;
+    margin: 50px auto;
 }
 
 #titulo{
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 #titulo h1{
-  font-weight: bold;
-  margin-bottom: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
 }
 
 #titulo h3{
-  margin: 50px auto 30px;
+    margin: 50px auto 30px;
 }
 
 #descricao{
-  font-size: 1.2em;
-  line-height: 2;
+    font-size: 1.2em;
+    line-height: 2;
 }
 
 #descricao > p > a{
-  text-decoration: none;
-  color: #F24E4E;
-  font-weight: bold;
+    text-decoration: none;
+    color: #F24E4E;
+    font-weight: bold;
 }
 
 #descricao > p > span{
-  font-weight: bold;
+    font-weight: bold;
 }
 
 
 #projetos{
-  padding-top: 80px;
-  padding-bottom: 40px;
-  color: #FFF;
-  background: url(../img/background/projetos-blue.png) repeat-y;
-  background-size: cover;
-  min-height: 100%;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: #FFF;
+    background: url(../img/background/projetos-blue.png) repeat-y;
+    background-size: cover;
+    min-height: 100%;
 }
 
 
 #contato{
-  color: #FFF;
-  font-size: 1.2em;
-  /*background-color: #043B50;*/
-  background-color: #333;
-  height: 320px;
+    color: #FFF;
+    font-size: 1.2em;
+    /*background-color: #043B50;*/
+    background-color: #333;
+    height: 320px;
 }
 
 #contato h1{
-  margin-bottom: 30px;
-  font-weight: bold;
+    margin-bottom: 30px;
+    font-weight: bold;
 }
 
 #contato .col-lg-12{
-  margin-top: 60px;
+    margin-top: 60px;
 }
 
 #contato a{
-  text-decoration: none;
-  color: #FFF;
-  line-height: 35px;
+    text-decoration: none;
+    color: #FFF;
+    line-height: 35px;
 }
 
 #contato a:hover, footer a:visited{
-  color: #F24E4E;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
+    color: #F24E4E;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
 }
 
 #contato p{
-  font-size: 0.8em;
+    font-size: 0.8em;
 }
 
 /*
 footer{
-color: #FFF;
-font-size: 1.2em;
-background-color: #043B50;
-background-color: #F24E4E;
-height: 150px;
+    color: #FFF;
+    font-size: 1.2em;
+    background-color: #043B50;
+    background-color: #F24E4E;
+    height: 150px;
 }
 
 footer .col-lg-12{
-margin-top: 50px;
+    margin-top: 50px;
 }
 
 footer .col-lg-12 > p{
-margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 footer a{
-color: #FFF;
+    color: #FFF;
 }
 
 footer a:hover, footer a:visited{
-color: #FFF;
+    color: #FFF;
 }*/
 
 /*footer a:visited{
-color: #337ab7;
+    color: #337ab7;
 }*/
 
 
@@ -312,55 +313,55 @@ color: #337ab7;
 /************* Media queries *************/
 @media screen and (max-width: 768px) {
 
-  .navbar{
-    min-height: 40px;
-    border: none;
-  }
+    .navbar{
+        min-height: 40px;
+        border: none;
+    }
 
-  #brand{
-    margin-top: -3px;
-  }
+    #brand{
+        margin-top: -3px;
+    }
 
-  #imgBrand{
-    height: 30px;
-    width: 160px;
-    color: #F24E4E;
-  }
+    #imgBrand{
+        height: 30px;
+        width: 160px;
+        color: #F24E4E;
+    }
 }
 
 @media screen and (min-height: 768px) {
-  header p{
-    font-size: 1.7em;
-  }
+    header p{
+        font-size: 1.7em;
+    }
 
-  header #foto{
-    width: 240px;
-    height: 240px;
-  }
+    header #foto{
+        width: 240px;
+        height: 240px;
+    }
 }
 
 @media screen and (max-width: 480px){
 
-  header{
-    padding-bottom: 10px;
-  }
+    header{
+      padding-bottom: 5px;
+    }
 
-  header #logo{
-    visibility: hidden;
-    margin-bottom: 2px;
-  }
+    header #logo{
+        visibility: hidden;
+        margin-bottom: 2px;
+    }
 
-  header #foto{
-    width: 170px;
-    height: 170px;
-  }
+    header #foto{
+        width: 170px;
+        height: 170px;
+    }
 
-  .invisible{
-    visibility: visible;
-  }
+    .invisible{
+        visibility: visible;
+    }
 
-  #menu{
-    display: none;
-  }
+    #menu{
+        display: none;
+    }
 }
 /************* / Media queries *************/
