@@ -29,13 +29,13 @@ body{
     font-family: Asap;
 }
 
-/*::-webkit-scrollbar {
-    width: 1px;
+::-webkit-scrollbar {
+    width: 10px;
     background: #ddd;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #037369;
+    background: #F24E4E;
 }
 
 ::-moz-selection {
@@ -46,12 +46,12 @@ body{
 ::selection {
     background-color: rgba(230,224,203,0.3);
     color: #fff8e1;
-}*/
+}
 
 
 header{
     color: #FFFFFF;
-    background: url("../img/background/header2.png");
+    background: url("../img/background/header3.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -188,6 +188,9 @@ header #foto{
   -webkit-animation-duration: 3s;
   -webkit-animation-delay: 2s;
   -webkit-animation-iteration-count: infinite;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 2s;
+  -moz-animation-iteration-count: infinite;
 
 }
 
