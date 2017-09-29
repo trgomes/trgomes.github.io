@@ -208,16 +208,16 @@ header #foto{
     margin: 50px auto;
 }
 
-#titulo{
+.titulo{
     text-transform: uppercase;
 }
 
-#titulo h1{
+.titulo h2{
     font-weight: bold;
     margin-bottom: 50px;
 }
 
-#titulo h3{
+.titulo h3{
     margin: 50px auto 30px;
 }
 
