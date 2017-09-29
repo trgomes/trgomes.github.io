@@ -204,7 +204,7 @@ header #foto{
     color: #333;
 }
 
-#tecnologias > img{
+.tecnologias > img{
     margin: 50px auto;
 }
 
@@ -221,18 +221,18 @@ header #foto{
     margin: 50px auto 30px;
 }
 
-#descricao{
+.descricao{
     font-size: 1.2em;
     line-height: 2;
 }
 
-#descricao > p > a{
+.descricao > p > a{
     text-decoration: none;
     color: #F24E4E;
     font-weight: bold;
 }
 
-#descricao > p > span{
+.descricao > p > span{
     font-weight: bold;
 }
 
